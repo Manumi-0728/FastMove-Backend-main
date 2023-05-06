@@ -200,7 +200,7 @@ app.post('/profiles', (req, res) => {
   });
 });
 
-// Update a profile
+// Update a conductor profile
 app.put('/profiles/:id', (req, res) => {
   const id = req.params.id;
   const { user_name, password, mobile_number, email, nic_scan_copy } = req.body;
